@@ -1,0 +1,11 @@
+name 'web'
+maintainer 'Eugene Pristupa'
+maintainer_email 'pre@ciklum.com'
+license 'all_rights'
+description 'Installs/Configures web'
+long_description 'Installs/Configures web'
+version '0.1.1'
+
+depends 'httpd', '~> 0.3.2'
+depends 'mysql', '~> 6.0'
+depends 'php'
